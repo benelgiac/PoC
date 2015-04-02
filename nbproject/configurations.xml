@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="Delegate" displayName="Delegate" projectFiles="true">
+        <itemPath>Delegate/FastDelegate.h</itemPath>
+        <itemPath>Delegate/FastDelegateBind.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="pugixml" displayName="pugixml" projectFiles="true">
+        <itemPath>pugixml/pugiconfig.hpp</itemPath>
+        <itemPath>pugixml/pugixml.cpp</itemPath>
+        <itemPath>pugixml/pugixml.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="QAppNG" displayName="QAppNG" projectFiles="true">
+        <logicalFolder name="detail" displayName="detail" projectFiles="true">
+          <itemPath>QAppNG/detail/AppConfigManagerImpl.h</itemPath>
+          <itemPath>QAppNG/detail/CommandlineInterfaceImpl.h</itemPath>
+          <itemPath>QAppNG/detail/FSMImpl.h</itemPath>
+          <itemPath>QAppNG/detail/PeriodicTimerImpl.h</itemPath>
+          <itemPath>QAppNG/detail/ProbeCxtKeyImpl.h</itemPath>
+          <itemPath>QAppNG/detail/ProbeReasmCxtImpl.h</itemPath>
+          <itemPath>QAppNG/detail/ProbeReasmMgrImpl.h</itemPath>
+          <itemPath>QAppNG/detail/ProtCxtKeyImpl.h</itemPath>
+          <itemPath>QAppNG/detail/QSharedMapManagerImpl.h</itemPath>
+          <itemPath>QAppNG/detail/ReasmCxtIfaceImpl.h</itemPath>
+          <itemPath>QAppNG/detail/ReasmMgrIfaceImpl.h</itemPath>
+          <itemPath>QAppNG/detail/SegmentImpl.h</itemPath>
+          <itemPath>QAppNG/detail/SequenceableMultiQueueImpl.h</itemPath>
+          <itemPath>QAppNG/detail/WorkManagerImpl.h</itemPath>
+        </logicalFolder>
+        <itemPath>QAppNG/128bit_mapkey.h</itemPath>
+        <itemPath>QAppNG/CPInfoStructs.h</itemPath>
+        <itemPath>QAppNG/CalTypes.h</itemPath>
+        <itemPath>QAppNG/CellAndUserIdentifiedObject.h</itemPath>
+        <itemPath>QAppNG/ClassHandlers.h</itemPath>
+        <itemPath>QAppNG/ContextIdentityContent.h</itemPath>
+        <itemPath>QAppNG/FSM.h</itemPath>
+        <itemPath>QAppNG/Imsi.cpp</itemPath>
+        <itemPath>QAppNG/Imsi.h</itemPath>
+        <itemPath>QAppNG/IuPSTcpTicket.h</itemPath>
+        <itemPath>QAppNG/LightWeightNoSequencerObservable.h</itemPath>
+        <itemPath>QAppNG/LightWeightSequencerEvo.cpp</itemPath>
+        <itemPath>QAppNG/LightWeightSequencerEvo.h</itemPath>
+        <itemPath>QAppNG/LightWeightSequencerObservable.h</itemPath>
+        <itemPath>QAppNG/LightWeightSequencerPdu.h</itemPath>
+        <itemPath>QAppNG/MultiKeyMap.h</itemPath>
+        <itemPath>QAppNG/MultithreadProcessingEntity.h</itemPath>
+        <itemPath>QAppNG/ObjectPool.h</itemPath>
+        <itemPath>QAppNG/PerThreadSingleton.h</itemPath>
+        <itemPath>QAppNG/PeriodicTimer.cpp</itemPath>
+        <itemPath>QAppNG/PeriodicTimer.h</itemPath>
+        <itemPath>QAppNG/PipedProcess.cpp</itemPath>
+        <itemPath>QAppNG/PipedProcess.h</itemPath>
+        <itemPath>QAppNG/ProbeCxtKey.h</itemPath>
+        <itemPath>QAppNG/ProbeHeader.h</itemPath>
+        <itemPath>QAppNG/ProcessedContextContainer.h</itemPath>
+        <itemPath>QAppNG/ProtCxtKey.h</itemPath>
+        <itemPath>QAppNG/ProtocolEvent.h</itemPath>
+        <itemPath>QAppNG/ProtocolPduEvent.h</itemPath>
+        <itemPath>QAppNG/QConfigManager.h</itemPath>
+        <itemPath>QAppNG/QCounters.h</itemPath>
+        <itemPath>QAppNG/QCountersBase.h</itemPath>
+        <itemPath>QAppNG/QDecouplingQueue.h</itemPath>
+        <itemPath>QAppNG/QLogManager.h</itemPath>
+        <itemPath>QAppNG/QObservable.h</itemPath>
+        <itemPath>QAppNG/QSerializer.h</itemPath>
+        <itemPath>QAppNG/QSharedKeyValueCounters.h</itemPath>
+        <itemPath>QAppNG/QStatusManager.cpp</itemPath>
+        <itemPath>QAppNG/QStatusManager.h</itemPath>
+        <itemPath>QAppNG/QSubjectObserver.h</itemPath>
+        <itemPath>QAppNG/QTcpSocket.h</itemPath>
+        <itemPath>QAppNG/QVirtualClock.cpp</itemPath>
+        <itemPath>QAppNG/QVirtualClock.h</itemPath>
+        <itemPath>QAppNG/ReasmCxtIface.h</itemPath>
+        <itemPath>QAppNG/ReasmMgrIface.h</itemPath>
+        <itemPath>QAppNG/Segment.h</itemPath>
+        <itemPath>QAppNG/SensitiveInfoDefaultConfig.h</itemPath>
+        <itemPath>QAppNG/SequenceableMultiQueue.h</itemPath>
+        <itemPath>QAppNG/SequencerExtractor.h</itemPath>
+        <itemPath>QAppNG/SimplePeriodicTimer.h</itemPath>
+        <itemPath>QAppNG/Singleton.h</itemPath>
+        <itemPath>QAppNG/StructDefs.h</itemPath>
+        <itemPath>QAppNG/TablesHandler.cpp</itemPath>
+        <itemPath>QAppNG/TablesHandler.h</itemPath>
+        <itemPath>QAppNG/TablesRenderer.cpp</itemPath>
+        <itemPath>QAppNG/TablesRenderer.h</itemPath>
+        <itemPath>QAppNG/ThreadCounter.cpp</itemPath>
+        <itemPath>QAppNG/ThreadCounter.h</itemPath>
+        <itemPath>QAppNG/TicketLabel.h</itemPath>
+        <itemPath>QAppNG/TicketsCommonMethods.cpp</itemPath>
+        <itemPath>QAppNG/TicketsCommonMethods.h</itemPath>
+        <itemPath>QAppNG/ToFromString.h</itemPath>
+        <itemPath>QAppNG/TrivialCircularLockFreeQueue.h</itemPath>
+        <itemPath>QAppNG/TrivialCircularLockFreeQueueEvo.cpp</itemPath>
+        <itemPath>QAppNG/TrivialCircularLockFreeQueueEvo.h</itemPath>
+        <itemPath>QAppNG/TrivialCircularLockFreeQueueSorted.h</itemPath>
+        <itemPath>QAppNG/TrivialCircularLockFreeQueueSortedEvo.h</itemPath>
+        <itemPath>QAppNG/TrivialThreadPool.h</itemPath>
+        <itemPath>QAppNG/VirtualTimer.h</itemPath>
+        <itemPath>QAppNG/VisitorInterface.h</itemPath>
+        <itemPath>QAppNG/WorkManager.cpp</itemPath>
+        <itemPath>QAppNG/WorkManager.h</itemPath>
+        <itemPath>QAppNG/WorkManagerStatus.cpp</itemPath>
+        <itemPath>QAppNG/WorkManagerStatus.h</itemPath>
+        <itemPath>QAppNG/core.h</itemPath>
+        <itemPath>QAppNG/eth_numbers.h</itemPath>
+        <itemPath>QAppNG/nl_clockable_time.cpp</itemPath>
+        <itemPath>QAppNG/nl_clockable_time.h</itemPath>
+        <itemPath>QAppNG/nl_consumable.h</itemPath>
+        <itemPath>QAppNG/nl_exception.h</itemPath>
+        <itemPath>QAppNG/nl_exception_errormap.h</itemPath>
+        <itemPath>QAppNG/nl_osal.cpp</itemPath>
+        <itemPath>QAppNG/nl_osal.h</itemPath>
+        <itemPath>QAppNG/p11kClientProtocol.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>QAppNG</Elem>
+    <Elem>Delegate</Elem>
+    <Elem>pugixml</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>./</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lpthread</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Delegate/FastDelegate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Delegate/FastDelegateBind.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/128bit_mapkey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/CPInfoStructs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/CalTypes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/CellAndUserIdentifiedObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/ClassHandlers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ContextIdentityContent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/FSM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/Imsi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/Imsi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/IuPSTcpTicket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/LightWeightNoSequencerObservable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/LightWeightSequencerEvo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/LightWeightSequencerEvo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/LightWeightSequencerObservable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/LightWeightSequencerPdu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/MultiKeyMap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/MultithreadProcessingEntity.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/ObjectPool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/PerThreadSingleton.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/PeriodicTimer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/PeriodicTimer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/PipedProcess.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/PipedProcess.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ProbeCxtKey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ProbeHeader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ProcessedContextContainer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ProtCxtKey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ProtocolEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ProtocolPduEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QConfigManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QCounters.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QCountersBase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QDecouplingQueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QLogManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QObservable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QSerializer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QSharedKeyValueCounters.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QStatusManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/QStatusManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QSubjectObserver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QTcpSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QVirtualClock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/QVirtualClock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ReasmCxtIface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ReasmMgrIface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/Segment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/SensitiveInfoDefaultConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/SequenceableMultiQueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/SequencerExtractor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/SimplePeriodicTimer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/Singleton.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/StructDefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/TablesHandler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/TablesHandler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/TablesRenderer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/TablesRenderer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ThreadCounter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/ThreadCounter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/TicketLabel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/TicketsCommonMethods.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/TicketsCommonMethods.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ToFromString.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/TrivialCircularLockFreeQueue.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/TrivialCircularLockFreeQueueEvo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/TrivialCircularLockFreeQueueEvo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/TrivialCircularLockFreeQueueSorted.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/TrivialCircularLockFreeQueueSortedEvo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/TrivialThreadPool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/VirtualTimer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/VisitorInterface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/WorkManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/WorkManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/WorkManagerStatus.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/WorkManagerStatus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/detail/AppConfigManagerImpl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/detail/CommandlineInterfaceImpl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/detail/FSMImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/detail/PeriodicTimerImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/detail/ProbeCxtKeyImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/detail/ProbeReasmCxtImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/detail/ProbeReasmMgrImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/detail/ProtCxtKeyImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/detail/QSharedMapManagerImpl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/detail/ReasmCxtIfaceImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/detail/ReasmMgrIfaceImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/detail/SegmentImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/detail/SequenceableMultiQueueImpl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/detail/WorkManagerImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/eth_numbers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/nl_clockable_time.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/nl_clockable_time.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/nl_consumable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/nl_exception.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/nl_exception_errormap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/nl_osal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/nl_osal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/p11kClientProtocol.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="pugixml/pugiconfig.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pugixml/pugixml.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="pugixml/pugixml.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Delegate/FastDelegate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Delegate/FastDelegateBind.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/128bit_mapkey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/CPInfoStructs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/CalTypes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/CellAndUserIdentifiedObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/ClassHandlers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ContextIdentityContent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/FSM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/Imsi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/Imsi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/IuPSTcpTicket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/LightWeightNoSequencerObservable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/LightWeightSequencerEvo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/LightWeightSequencerEvo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/LightWeightSequencerObservable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/LightWeightSequencerPdu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/MultiKeyMap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/MultithreadProcessingEntity.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/ObjectPool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/PerThreadSingleton.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/PeriodicTimer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/PeriodicTimer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/PipedProcess.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/PipedProcess.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ProbeCxtKey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ProbeHeader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ProcessedContextContainer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ProtCxtKey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ProtocolEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ProtocolPduEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QConfigManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QCounters.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QCountersBase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QDecouplingQueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QLogManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QObservable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QSerializer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QSharedKeyValueCounters.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QStatusManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/QStatusManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QSubjectObserver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QTcpSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/QVirtualClock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/QVirtualClock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ReasmCxtIface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ReasmMgrIface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/Segment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/SensitiveInfoDefaultConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/SequenceableMultiQueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/SequencerExtractor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/SimplePeriodicTimer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/Singleton.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/StructDefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/TablesHandler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/TablesHandler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/TablesRenderer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/TablesRenderer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ThreadCounter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/ThreadCounter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/TicketLabel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/TicketsCommonMethods.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/TicketsCommonMethods.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/ToFromString.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/TrivialCircularLockFreeQueue.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/TrivialCircularLockFreeQueueEvo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/TrivialCircularLockFreeQueueEvo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/TrivialCircularLockFreeQueueSorted.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/TrivialCircularLockFreeQueueSortedEvo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/TrivialThreadPool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/VirtualTimer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/VisitorInterface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/WorkManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/WorkManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/WorkManagerStatus.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/WorkManagerStatus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/detail/AppConfigManagerImpl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/detail/CommandlineInterfaceImpl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/detail/FSMImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/detail/PeriodicTimerImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/detail/ProbeCxtKeyImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/detail/ProbeReasmCxtImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/detail/ProbeReasmMgrImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/detail/ProtCxtKeyImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/detail/QSharedMapManagerImpl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/detail/ReasmCxtIfaceImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/detail/ReasmMgrIfaceImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/detail/SegmentImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/detail/SequenceableMultiQueueImpl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="QAppNG/detail/WorkManagerImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/eth_numbers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/nl_clockable_time.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/nl_clockable_time.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/nl_consumable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/nl_exception.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/nl_exception_errormap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/nl_osal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/nl_osal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/p11kClientProtocol.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="pugixml/pugiconfig.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pugixml/pugixml.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="pugixml/pugixml.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
