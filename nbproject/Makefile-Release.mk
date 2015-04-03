@@ -35,6 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/QAppNG/CCassClient.o \
 	${OBJECTDIR}/QAppNG/Imsi.o \
 	${OBJECTDIR}/QAppNG/LightWeightSequencerEvo.o \
 	${OBJECTDIR}/QAppNG/PeriodicTimer.o \
@@ -77,6 +78,11 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/poc: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/poc ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/QAppNG/CCassClient.o: QAppNG/CCassClient.cpp 
+	${MKDIR} -p ${OBJECTDIR}/QAppNG
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/QAppNG/CCassClient.o QAppNG/CCassClient.cpp
 
 ${OBJECTDIR}/QAppNG/Imsi.o: QAppNG/Imsi.cpp 
 	${MKDIR} -p ${OBJECTDIR}/QAppNG

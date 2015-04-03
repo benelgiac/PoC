@@ -31,6 +31,8 @@
           <itemPath>QAppNG/detail/WorkManagerImpl.h</itemPath>
         </logicalFolder>
         <itemPath>QAppNG/128bit_mapkey.h</itemPath>
+        <itemPath>QAppNG/CCassClient.cpp</itemPath>
+        <itemPath>QAppNG/CCassClient.h</itemPath>
         <itemPath>QAppNG/CPInfoStructs.h</itemPath>
         <itemPath>QAppNG/CalTypes.h</itemPath>
         <itemPath>QAppNG/CellAndUserIdentifiedObject.h</itemPath>
@@ -161,6 +163,7 @@
           <linkerLibItems>
             <linkerOptionItem>-lboost_system</linkerOptionItem>
             <linkerOptionItem>-lpthread</linkerOptionItem>
+            <linkerOptionItem>-lcassandra</linkerOptionItem>
           </linkerLibItems>
         </linkerTool>
       </compileType>
@@ -169,6 +172,10 @@
       <item path="Delegate/FastDelegateBind.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="QAppNG/128bit_mapkey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/CCassClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/CCassClient.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="QAppNG/CPInfoStructs.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -440,6 +447,10 @@
       <item path="Delegate/FastDelegateBind.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="QAppNG/128bit_mapkey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QAppNG/CCassClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QAppNG/CCassClient.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="QAppNG/CPInfoStructs.h" ex="false" tool="3" flavor2="0">
       </item>

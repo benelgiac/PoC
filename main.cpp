@@ -8,20 +8,15 @@
 #include <iostream>
 #include <string>
 #include "QAppNG/QTcpSocket.h"
-
-int echo(QAppNG::QTcpSocket & sock)
-{
-    sock.send(sock.m_io_buffer, sock.m_io_buffer_current_used_bytes);
-    return sock.m_io_buffer_current_used_bytes;
-}
+#include "QAppNG/CCassClient.h"
 
 int main(int argc, char * argv[])
 {
-    QAppNG::QTcpSocket sock(3200);
-    std::string ip_address ("0.0.0.0");
-    std::string welcome_message ("Welcome to New Generation\n");
     
-    sock.startSingleThreadSingleClientReceiving(ip_address, 8888, welcome_message, &echo);
+    
+    Cassandra::SimpleClient cass_client;
+    cass_client.connect("127.0.0.1");
+        
     std::cout << "See you soon" << std::endl;
     return 0;   
 }
